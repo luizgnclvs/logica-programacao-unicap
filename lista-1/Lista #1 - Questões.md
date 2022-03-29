@@ -42,11 +42,11 @@ Uma revendedora de carros usados paga a seus funcionários vendedores um salári
 ### Questão 12:
 Escreva um algoritmo para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor correspondente em graus Celsius (baseado na fórmula abaixo):
 
-C / 5 = (F - 32) / 9
-  
-*Observação:* Para testar se a sua resposta está correta saiba que  100ºC  =  212F 
+>**C / 5 = (F - 32) / 9**
+>
+>*Observação:* Para testar se a sua resposta está correta saiba que  **100ºC  =  212F** 
 
 ### Questão 13:
 Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5. Fórmula para o cálculo da média final é:
 
-mediafinal = (n1 * 2 + n2 * 3 + n3 * 5) / 10
+>mediafinal = (n1 * 2 + n2 * 3 + n3 * 5) / 10
