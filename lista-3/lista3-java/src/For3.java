@@ -25,7 +25,7 @@ public class For3 {
 				break;
 			} else if (isNumeric (entry)) {
 				float number = Float.valueOf(entry).floatValue();
-	            count++;
+	            		count++;
 				sum += number;
 				if (number != 0) {
 					if (number > 0) {
