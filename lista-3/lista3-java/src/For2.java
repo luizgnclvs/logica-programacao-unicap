@@ -9,7 +9,7 @@ public class For2 {
 		float[] heights = new float[15]; 
 		float tallestH = 0, smallestH = 0;
 		
-		for (int i = 0; i < 15; i++) {
+		for (int i = 0; i < heights.length; i++) {
 			System.out.printf("Informe a altura, em metros, do espécime de nº %d: ", i + 1);
 			heights[i] = read.nextFloat();
 			if (heights[i] <= 0) {

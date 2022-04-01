@@ -9,7 +9,7 @@ public class For10 {
         System.out.printf("Insira um valor para que seja calculado seu fatorial: ");
         int a = read.nextInt();
 
-        System.out.printf("O fatorial de %d é:\n%d! = %d", a, a, a);
+        System.out.printf("\nO fatorial de %d é:\n%d! = %d", a, a, a);
         
         int fat = a;
         
@@ -17,7 +17,6 @@ public class For10 {
             System.out.printf(" ✕ %d", i);
             fat *= i;
         }
-
         System.out.printf(" = %d", fat);
     }
 }
