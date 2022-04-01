@@ -22,7 +22,8 @@ Faça um algoritmo estruturado que leia uma quantidade não determinada de núme
 Escrever um algoritmo que gera e escreve os números ímpares entre 100 e 200.
 
 ### Questão 7:
-Escrever um algoritmo que leia um valor para uma variável N de 1 a 10 e calcule a tabuada de N. Mostre a tabuada na forma: *0 x N = 0, 1 x N = 1N, 2 x N = 2N, ..., 10 x N = 10N*.
+Escrever um algoritmo que leia um valor para uma variável N de 1 a 10 e calcule a tabuada de N. Mostre a tabuada na forma: 
+*0 x N = 0, 1 x N = 1N, 2 x N = 2N, ..., 10 x N = 10N*.
 
 ### Questão 8:
 Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma sequência em P.A. contendo 10 valores.
@@ -31,4 +32,5 @@ Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma se
 Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma sequência em P.G. contendo 10 valores.
 
 ### Questão 10:
-Escreva um algoritmo que leia um valor inicial A e imprima a seqüência de valores do cálculo de A! e o seu resultado. *Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120*
+Escreva um algoritmo que leia um valor inicial A e imprima a seqüência de valores do cálculo de A! e o seu resultado. 
+*Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120*
