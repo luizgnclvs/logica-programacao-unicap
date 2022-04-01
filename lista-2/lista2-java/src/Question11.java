@@ -16,14 +16,14 @@ public class Question11 {
 		installment = read.nextInt();
 		
 		if (installment == 1) {
-				System.out.printf("\n%s \n%s \n\t1\t%s \n\t2\t%s \n\t3\t%s\n", "Qual o método de pagamento desejado?", "(Selecione o número correspondente à opção desejada)", "Dinheiro", "Cheque", "Cartão de Crédito");
-				inCash = read.nextInt();
+			System.out.printf("\n%s \n%s \n\t1\t%s \n\t2\t%s \n\t3\t%s\n", "Qual o método de pagamento desejado?", "(Selecione o número correspondente à opção desejada)", "Dinheiro", "Cheque", "Cartão de Crédito");
+			inCash = read.nextInt();
 				
-				if (inCash == 1 || inCash == 2) {
-					priceFinal = price - (price / 10);
-				} else {
-					priceFinal = price - (15 * price / 100);
-				}
+			if (inCash == 1 || inCash == 2) {
+				priceFinal = price - (price / 10);
+			} else {
+				priceFinal = price - (15 * price / 100);
+			}
 		} else if (installment == 2) {
 			priceFinal = price;
 		} else {

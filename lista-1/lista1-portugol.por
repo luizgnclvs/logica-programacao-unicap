@@ -7,62 +7,62 @@ programa
 		escreva("Questão 2\n")
 		inteiro A, B, C, X, Y, Z
 		//letra "a)":
-			escreva("a:\n")
-			A = 10
-			B = 20
-			escreva(B, "\n")
-			B = 5
-			escreva("Resultado: ", A, ", ", B, "\n")
-			//o resultado impresso na tela seria: "10, 5"
+		escreva("a:\n")
+		A = 10
+		B = 20
+		escreva(B, "\n")
+		B = 5
+		escreva("Resultado: ", A, ", ", B, "\n") //o resultado impresso na tela seria: "10, 5"
+		
 		//letra "b)":
-			escreva("\nb:\n")
-			A = 30
-			B = 20
-			C = A + B
-			escreva(C, "\n")
-			B = 10
-			escreva(B, ", ", C, "\n")
-			C = A + B
-			escreva("Resultado: ", A, ", ", B, ", ", C, "\n")
-			//o resultado impresso na tela seria: "30, 10, 40"
+		escreva("\nb:\n")
+		A = 30
+		B = 20
+		C = A + B
+		escreva(C, "\n")
+		B = 10
+		escreva(B, ", ", C, "\n")
+		C = A + B
+		escreva("Resultado: ", A, ", ", B, ", ", C, "\n") //o resultado impresso na tela seria: "30, 10, 40"
+		
 		//letra "c)":
-			escreva("\nc:\n")
-			A = 10
-			B = 20
-			C = A
-			B = C
-			A = B
-			escreva("Resultado: ", A, ", ", B, ", ", C, "\n")
-			//o resultado impresso na tela seria: "10, 10, 10"
+		escreva("\nc:\n")
+		A = 10
+		B = 20
+		C = A
+		B = C
+		A = B
+		escreva("Resultado: ", A, ", ", B, ", ", C, "\n") //o resultado impresso na tela seria: "10, 10, 10"
+		
 		//letra "d)":
-			escreva("\nd:\n")
-			A = 10
-			B = A + 1
-			A = B + 1
-			B = A + 1
-			escreva(A, "\n")
-			A = B + 1
-			escreva("Resultado: ", A, ", ", B, "\n")
-			//o resultado impresso na tela seria: "14, 13"
+		escreva("\nd:\n")
+		A = 10
+		B = A + 1
+		A = B + 1
+		B = A + 1
+		escreva(A, "\n")
+		A = B + 1
+		escreva("Resultado: ", A, ", ", B, "\n") //o resultado impresso na tela seria: "14, 13"
+		
 		//letra "e)":
-			escreva("\ne:\n")
-			A = 10
-			B = 5
-			C = A + B
-			B = 20
-			A = 10
-			escreva("Resultado: ", A, ", ", B, ", ", C, "\n")
-			//o resultado impresso na tela seria: "10, 20, 15"
+		escreva("\ne:\n")
+		A = 10
+		B = 5
+		C = A + B
+		B = 20
+		A = 10
+		escreva("Resultado: ", A, ", ", B, ", ", C, "\n")
+		//o resultado impresso na tela seria: "10, 20, 15"
+		
 		//letra "f)":
-			escreva("\nf:\n")
-			X = 1
-			Y = 2
-			Z = Y - X
-			escreva(Z, "\n")
-			X = 5
-			Y = X + Z
-			escreva("Resultado: ", X, ", ", Y, ", ", Z, "\n")
-			//o resultado impresso na tela seria: "5, 6, 1"
+		escreva("\nf:\n")
+		X = 1
+		Y = 2
+		Z = Y - X
+		escreva(Z, "\n")
+		X = 5
+		Y = X + Z
+		escreva("Resultado: ", X, ", ", Y, ", ", Z, "\n") //o resultado impresso na tela seria: "5, 6, 1"
 		
 		//Questão 3:
 		escreva("\nQuestão 3\n")
@@ -71,20 +71,17 @@ programa
 		escreva(a, "\n")
 		a = 4/2+2/4
 		escreva(a, "\n")
-		escreva("Produzem o mesmo resultado\n\n")
-			//produzem o mesmo resultado
+		escreva("Produzem o mesmo resultado\n\n") //produzem o mesmo resultado
 		b = 4/(2+2)/4
 		escreva(b, "\n")
 		b = 4/2+2/4 
 		escreva(b, "\n")
-		escreva("Não produzem o mesmo resultado\n\n")
-			//não produzem o mesmo resultado
+		escreva("Não produzem o mesmo resultado\n\n") //não produzem o mesmo resultado
 		c = (4+2)*2-4
 		escreva(c, "\n")
 		c = 4+2*2-4
 		escreva(c, "\n")
-		escreva("Não produzem o mesmo resultado\n\n")
-			//não produzem o mesmo resultado
+		escreva("Não produzem o mesmo resultado\n\n") //não produzem o mesmo resultado
 		
 		//Questão 5
 		escreva("\nQuestão 5\n")
