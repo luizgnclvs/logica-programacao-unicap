@@ -13,7 +13,7 @@ public class While2 {
 
         while (index < heights.length) {
             System.out.printf("Informe a altura, em metros, do espécime de nº %d: ", index + 1);
-			heights[index] = read.nextFloat();
+	    heights[index] = read.nextFloat();
             while (heights[index] <= 0) {
                 System.out.printf("Valor inválido! Tente novamente: ");
                 heights[index] = read.nextFloat();
@@ -24,21 +24,21 @@ public class While2 {
         index = 0;
 
         while (index < heights.length) {
-			if (heights[index] >= tallestH) {
-				tallestH = heights[index];
-			}
+		if (heights[index] >= tallestH) {
+			tallestH = heights[index];
+		}
             index++;
-		}		
+	}		
         
-		smallestH = tallestH;
+	smallestH = tallestH;
         index = 0;
 		
-		while (index < heights.length) {
-			if (heights[index] <= smallestH) {
-				smallestH = heights[index];
-			}
-            index++;
+	while (index < heights.length) {
+		if (heights[index] <= smallestH) {
+			smallestH = heights[index];
 		}
+            	index++;
+	}
 
         System.out.printf("\n%s %.2fm \n%s %.2fm", "Dentre as alturas inseridas, a menor é de:", smallestH, "E a maior é de:", tallestH);
     }
