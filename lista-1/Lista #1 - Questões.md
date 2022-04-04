@@ -4,7 +4,7 @@ Exercícios com operadores aritméticos.
 ### Questão 2:
 Analise os algoritmos abaixo e diga o que será impresso na tela ao serem executados:
 
-| Letra a) | Letra b) | Letra c) | Letra d) | letra e) | Letra f)
+| Letra a) | Letra b) | Letra c) | Letra d) | letra e) | Letra f) |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | A ← 10 | A ← 30 | A ← 10 | A ← 10 | A ← 10, B ← 5 | X ← 1, Y ← 2 |
 | B ← 20 | B ← 20 | B ← 20 | B ← A + 1 | C ← A + B | Z ← Y - X |
