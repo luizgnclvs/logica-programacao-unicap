@@ -12,13 +12,13 @@ public class While9 {
         System.out.printf("Agora insira um valor para a razão da sua P.G.: ");
         int r = read.nextInt();
 
-        int iteration = 1;
+        int i = 1;
 
         System.out.printf("\nP.G. = {%d", a);
-        while (iteration < 10) {
+        while (i < 10) {
             a *= r;
             System.out.printf(", %d", a);
-            iteration++;
+            i++;
         }
         System.out.printf("}");
     }

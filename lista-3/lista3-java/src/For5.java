@@ -31,8 +31,8 @@ public class For5 {
 				sum += number;
 				count++;      
 				i--;
-		    }            
-		}        
+		    }
+		}
 	     
 	    System.out.printf("\n\n\t%s \n%s\t\t%d \n%s\t\t%d \n%s\t\t%.2f \n%s\t\t%.2f", "Resultados da Operação", "Quantidade de números pares:", even, "Quantidade de números ímpares:", odd, "Média dos números pares:", sumEven / even, "Média de todos os valores:", sum / count);
     }

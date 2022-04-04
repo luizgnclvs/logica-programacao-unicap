@@ -4,13 +4,13 @@ public class While6 {
         
         System.out.println("Os números ímpares localizados entre 100 e 200 são:");
 
-        int number = 100;
+        int i = 100;
 
-        while (number < 201) {
-            if (number % 2 != 0) {
-                System.out.printf("%d\t", number);
+        while (i < 201) {
+            if (i % 2 != 0) {
+                System.out.printf("%d\t", i);
             }
-            number++;
+            i++;
         }
     }
 }

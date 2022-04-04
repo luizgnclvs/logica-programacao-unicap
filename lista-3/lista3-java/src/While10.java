@@ -11,12 +11,12 @@ public class While10 {
 
         System.out.printf("\nO fatorial de %d é:\n%d! = %d", a, a, a);
         
-        int fat = a, iteration = (a - 1);
+        int fat = a, i = (a - 1);
 
-        while (iteration > 0) {
-            System.out.printf(" ✕ %d", iteration);
-            fat *= iteration;
-            iteration--;
+        while (i > 0) {
+            System.out.printf(" ✕ %d", i);
+            fat *= i;
+            i--;
         }        
         System.out.printf(" = %d", fat);
     }

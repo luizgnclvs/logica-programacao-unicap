@@ -13,11 +13,11 @@ public class While7 {
             n = read.nextInt();
         }
 
-        int mult = 0;
+        int i = 0;
 
-        while (mult < 11) {
-            System.out.printf("%d \t✕ \t%d \t= \t%d\n", mult, n, mult*n);
-            mult++;
+        while (i < 11) {
+            System.out.printf("%d \t✕ \t%d \t= \t%d\n", i, n, i*n);
+            i++;
         }
     }
 }

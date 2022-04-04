@@ -9,36 +9,36 @@ public class While2 {
         float [] heights = new float [15];
         float tallestH = 0, smallestH = 0;
 
-        int index = 0;
+        int i = 0;
 
-        while (index < heights.length) {
-            System.out.printf("Informe a altura, em metros, do espécime de nº %d: ", index + 1);
-	    heights[index] = read.nextFloat();
-            while (heights[index] <= 0) {
+        while (i < heights.length) {
+            System.out.printf("Informe a altura, em metros, do espécime de nº %d: ", i + 1);
+	        heights[i] = read.nextFloat();
+            while (heights[i] <= 0) {
                 System.out.printf("Valor inválido! Tente novamente: ");
-                heights[index] = read.nextFloat();
+                heights[i] = read.nextFloat();
             }
-            index++;
+            i++;
         }
 
-        index = 0;
+        i = 0;
 
-        while (index < heights.length) {
-		if (heights[index] >= tallestH) {
-			tallestH = heights[index];
-		}
-            index++;
-	}		
+        while (i < heights.length) {
+            if (heights[i] >= tallestH) {
+			    tallestH = heights[i];
+		    }
+            i++;
+	    }		
         
-	smallestH = tallestH;
-        index = 0;
+	    smallestH = tallestH;
+        i = 0;
 		
-	while (index < heights.length) {
-		if (heights[index] <= smallestH) {
-			smallestH = heights[index];
-		}
-            	index++;
-	}
+	    while (i < heights.length) {
+		    if (heights[i] <= smallestH) {
+			    smallestH = heights[i];
+		    }
+            i++;
+	    }
 
         System.out.printf("\n%s %.2fm \n%s %.2fm", "Dentre as alturas inseridas, a menor é de:", smallestH, "E a maior é de:", tallestH);
     }

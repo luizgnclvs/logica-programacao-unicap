@@ -19,16 +19,16 @@ public class For4 {
 				break;
 			} else if (number < 26) {
 				interval1++;
-					} else if (number < 51) {
+			} else if (number < 51) {
 				interval2++;
 			} else if (number < 76) {
 				interval3++;
-				} else if (number < 101) {
+			} else if (number < 101) {
 				interval4++;
-				} else {
+			} else {
 				System.out.println("Número inválido! Insira outro valor.");
-				}
-				i--;
+			}
+			i--;
 		}
 		
 		System.out.printf("\n\n\t\t%s \n%s \n\t%s\t\t\t\t%d \n\t%s\t\t\t%d \n\t%s\t\t\t%d \n\t%s\t\t\t%d", "Resultados da Operação", "Quantidade de números inseridos nos seguintes intervalos:", "[0-25]:", interval1, "[26-50]:", interval2, "[51-75]:", interval3, "[76-100]:", interval4);

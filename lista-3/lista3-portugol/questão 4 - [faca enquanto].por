@@ -1,8 +1,6 @@
 programa
 {
-	inclua biblioteca Mouse
-	inclua biblioteca Internet
-	
+		
 	funcao inicio()
 	{
 		inteiro range1 = 0, range2 = 0, range3 = 0, range4 = 0, num
